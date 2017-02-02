@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Liberty for Java Starter app tutorial VVA
+  host: Liberty-for-Java-Starter-app-tutorial-VVA
+  disk_quota: 1024M
